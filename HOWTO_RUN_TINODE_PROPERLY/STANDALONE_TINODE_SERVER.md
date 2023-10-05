@@ -14,7 +14,7 @@ cd tinode-chat/tinode-db/
 3. Run the server
 ```
 cd ../server/
-./tinode -config=tinode.conf -static_data=../frontend/webapp/
+./tinode-server -config=tinode.conf -static_data=../frontend/webapp/
 ```
 
 4. Test the server in port `:6060`
