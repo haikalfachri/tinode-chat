@@ -1,0 +1,55 @@
+{
+  "name": "tinode-sdk",
+  "description": "Tinode SDK",
+  "version": "0.22.10",
+  "scripts": {
+    "format": "js-beautify -r src/*.js",
+    "build": "npm run format && npm run vers && npm run build:prod && npm run build:dev",
+    "clean": "rm umd/*",
+    "build:dev": "webpack --mode development",
+    "build:prod": "webpack --mode production",
+    "build:docs": "jsdoc ./src -t ./node_modules/minami -d ../tinode.github.io/js-api",
+    "vers": "echo \"export const PACKAGE_VERSION = \\\"`node -p -e \"require('./package.json').version\"`\\\";\" > version.js",
+    "test": "jest"
+  },
+  "browserslist": "> 0.5%, not IE 11, not op_mini all, not and_uc >0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinode/tinode-js.git"
+  },
+  "files": [
+    "umd/tinode.dev.js",
+    "umd/tinode.dev.js.map",
+    "umd/tinode.prod.js",
+    "umd/tinode.prod.js.map",
+    "version.json"
+  ],
+  "keywords": [
+    "instant messenger",
+    "messenger",
+    "chat"
+  ],
+  "email": "info@tinode.co",
+  "author": "Tinode Authors <info@tinode.co>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tinode/tinode-js/issues"
+  },
+  "homepage": "https://github.com/tinode/chat",
+  "main": "./umd/tinode.prod.js",
+  "devDependencies": {
+    "@babel/core": "^7.22.8",
+    "@babel/plugin-proposal-numeric-separator": "^7.18.6",
+    "@babel/preset-env": "^7.22.7",
+    "babel-loader": "^9.1.3",
+    "browserslist": "^4.21.9",
+    "copy-webpack-plugin": "^11.0.0",
+    "cssnano": "^6.0.1",
+    "jest": "^29.6.1",
+    "js-beautify": "^1.14.8",
+    "jsdoc": "^4.0.2",
+    "minami": "^1.2.3",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

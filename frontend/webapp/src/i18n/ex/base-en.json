@@ -1,0 +1,939 @@
+{
+  "action_block_contact": {
+    "defaultMessage": "Block Contact",
+    "description": "Flat button [Block Contact]"
+  },
+  "action_cancel": {
+    "defaultMessage": "cancel",
+    "description": "Call to action [cancel]"
+  },
+  "action_clear_messages": {
+    "defaultMessage": "Clear Messages",
+    "description": "Flat button [Clear Messages] (soft-delete messages)"
+  },
+  "action_delete_messages": {
+    "defaultMessage": "Clear Messages for All",
+    "description": "Flat button [Clear for All] (hard-delete all messages)"
+  },
+  "action_leave_chat": {
+    "defaultMessage": "Leave Conversation",
+    "description": "Flat button [Leave Conversation]"
+  },
+  "action_report_chat": {
+    "defaultMessage": "Report Conversation",
+    "description": "Flat button [Report Group]"
+  },
+  "already_in_call": {
+    "defaultMessage": "You already in an ongoing call!",
+    "description": "Error message when the user tried to accept a new call without finishing pervious one"
+  },
+  "archived_contacts": {
+    "defaultMessage": "Archived contacts ({count})",
+    "description": "Label for archived chats"
+  },
+  "badge_danger": {
+    "defaultMessage": "Untrustworthy",
+    "description": "Suspicious or untrustworthy account or topic badge"
+  },
+  "badge_owner": {
+    "defaultMessage": "owner",
+    "description": "Badge for indicating the owner"
+  },
+  "badge_staff": {
+    "defaultMessage": "Staff-managed",
+    "description": "Explanation of a staff-managed account or topic badge"
+  },
+  "badge_verified": {
+    "defaultMessage": "Verified/official",
+    "description": "Explanation of a verified account or topic badge"
+  },
+  "badge_you": {
+    "defaultMessage": "you",
+    "description": "Badge for indicating the current user"
+  },
+  "block_contact_warning": {
+    "defaultMessage": "Are you sure you want to block this contact?",
+    "description": "Alert dialog warning when blocking a contact."
+  },
+  "blocked_contacts_link": {
+    "defaultMessage": "Blocked contacts ({count})",
+    "description": "Blocked contacts link"
+  },
+  "button_add_members": {
+    "defaultMessage": "Add members",
+    "description": "Flat button [Add members] (to topic)"
+  },
+  "button_cancel": {
+    "defaultMessage": "Cancel",
+    "description": "Button [Cancel]"
+  },
+  "button_confirm": {
+    "defaultMessage": "Confirm",
+    "description": "Button [Confirm]"
+  },
+  "button_create": {
+    "defaultMessage": "Create",
+    "description": "Button [Create]"
+  },
+  "button_delete_account": {
+    "defaultMessage": "Delete account",
+    "description": "Button [Delete account]"
+  },
+  "button_edit": {
+    "defaultMessage": "Edit",
+    "description": "Call to action [Edit]"
+  },
+  "button_logout": {
+    "defaultMessage": "Logout",
+    "description": "Button [Logout]"
+  },
+  "button_ok": {
+    "defaultMessage": "OK",
+    "description": "Button [OK]"
+  },
+  "button_reset": {
+    "defaultMessage": "Reset",
+    "description": "Button [Reset]"
+  },
+  "button_security": {
+    "defaultMessage": "Security",
+    "description": "Navigaton button for security panel."
+  },
+  "button_send_request": {
+    "defaultMessage": "Send request",
+    "description": "Button [Send request]"
+  },
+  "button_sign_in": {
+    "defaultMessage": "Sign in",
+    "description": "Button [Sign In]"
+  },
+  "button_sign_up": {
+    "defaultMessage": "Sign up",
+    "description": "Create account button [Sign Up]"
+  },
+  "button_subscribe": {
+    "defaultMessage": "Subscribe",
+    "description": "Button [Subscribe]"
+  },
+  "button_update": {
+    "defaultMessage": "Update",
+    "description": "Button [Update]"
+  },
+  "call_busy": {
+    "defaultMessage": "busy",
+    "description": "Label for busy call line"
+  },
+  "call_cancelled": {
+    "defaultMessage": "cancelled",
+    "description": "Label for cancelled outgoing call"
+  },
+  "call_declined": {
+    "defaultMessage": "declined",
+    "description": "Label for declined call"
+  },
+  "call_disconnected": {
+    "defaultMessage": "disconnected",
+    "description": "Label for disconnected call"
+  },
+  "call_in_progress": {
+    "defaultMessage": "in progress",
+    "description": "Label for call in progress"
+  },
+  "call_missed": {
+    "defaultMessage": "missed",
+    "description": "Label for missed incoming call"
+  },
+  "calls_incoming": {
+    "defaultMessage": "Incoming call",
+    "description": "Incoming call label"
+  },
+  "calls_outgoing": {
+    "defaultMessage": "Outgoing call",
+    "description": "Outgoing call label"
+  },
+  "calls_you_label": {
+    "defaultMessage": "You",
+    "description": "Shown over the local video screen"
+  },
+  "cannot_initiate_file_upload": {
+    "defaultMessage": "Cannot initiate file upload.",
+    "description": "Generic error messagewhen attachment fails"
+  },
+  "change_email": {
+    "defaultMessage": "Change email",
+    "description": "Prompt to change current email"
+  },
+  "change_phone": {
+    "defaultMessage": "Change phone number",
+    "description": "Prompt to change current phone number"
+  },
+  "channel": {
+    "defaultMessage": "channel",
+    "description": "Subtitle shown for channels in MessagesView instead of last seen"
+  },
+  "channel_prompt": {
+    "defaultMessage": "This is a channel",
+    "description": "Checkbox label when creating a channel"
+  },
+  "chat_invitation": {
+    "defaultMessage": "You are invited to start a new chat. What would you like to do?",
+    "description": "New chat invitation message: [Accept] [Ignore] [Block]."
+  },
+  "chat_invitation_accept": {
+    "defaultMessage": "Accept",
+    "description": "Action [Accept] for chat invitation."
+  },
+  "chat_invitation_block": {
+    "defaultMessage": "Block",
+    "description": "Action [Block] for chat invitation."
+  },
+  "chat_invitation_ignore": {
+    "defaultMessage": "Ignore",
+    "description": "Action [Ignore] for chat invitation."
+  },
+  "clear_messages_warning": {
+    "defaultMessage": "Are you sure you want to clear all messages? It cannot be undone.",
+    "description": "Alert dialog warning when deleting all messages."
+  },
+  "code_doesnot_match": {
+    "defaultMessage": "Code does not match",
+    "description": "Error message when the credential validation code is incorrect."
+  },
+  "contacts_not_found": {
+    "defaultMessage": "You have no chats<br />¯∖_(ツ)_/¯",
+    "description": "HTML message shown in ContactList when no contacts are found"
+  },
+  "contacts_not_found_short": {
+    "defaultMessage": "No contacts match ''{query}''",
+    "description": "Shown in ContactsView when search returned no results"
+  },
+  "cred_confirmed_successfully": {
+    "defaultMessage": "Confirmed successfully",
+    "description": "Notification message that the credential was successfully validated."
+  },
+  "credential_email_prompt": {
+    "defaultMessage": "Your registration email",
+    "description": "Placeholder for entering email"
+  },
+  "current_email": {
+    "defaultMessage": "Current email",
+    "description": "Label for old email"
+  },
+  "current_phone": {
+    "defaultMessage": "Current phone number",
+    "description": "Label for old phone"
+  },
+  "delete_account": {
+    "defaultMessage": "Delete account",
+    "description": "Title for delete account warning"
+  },
+  "delete_account_warning": {
+    "defaultMessage": "Are you sure you want to delete your account? It cannot be undone.",
+    "description": "Warning message when deleting an account"
+  },
+  "delete_messages_warning": {
+    "defaultMessage": "Are you sure you want to delete all messages for everyone? It cannot be undone.",
+    "description": "Alert dialog warning when hard-deleting all messages."
+  },
+  "description_editing_placeholder": {
+    "defaultMessage": "Description (optional)",
+    "description": "Placeholder for editing topic description"
+  },
+  "download_action": {
+    "defaultMessage": "download",
+    "description": "Call to action [download]"
+  },
+  "drafty_attachment": {
+    "defaultMessage": "Attachment",
+    "description": "Comment for attachment in Drafty"
+  },
+  "drafty_form": {
+    "defaultMessage": "Form:",
+    "description": "Comment for form in Drafty"
+  },
+  "drafty_image": {
+    "defaultMessage": "Picture",
+    "description": "Comment for embedded images in Drafty"
+  },
+  "drafty_unknown": {
+    "defaultMessage": "Unsupported",
+    "description": "Unsupported entity in drafty"
+  },
+  "drafty_video": {
+    "defaultMessage": "Video recording",
+    "description": "Comment for videos embedded in Drafty"
+  },
+  "drag_file": {
+    "defaultMessage": "Drag file here",
+    "description": "Prompt on the file drag-n-drop overlay banner"
+  },
+  "editing_message": {
+    "defaultMessage": "Editing",
+    "description": "Title over message editing preview"
+  },
+  "email_dative": {
+    "defaultMessage": "email",
+    "description": "Dative case of 'email', i.e. 'email' in 'by email'"
+  },
+  "email_prompt": {
+    "defaultMessage": "Email, e.g. jdoe@example.com",
+    "description": "Input placeholder for email entry"
+  },
+  "enable_peers_messaging": {
+    "defaultMessage": "Enable",
+    "description": "Call to action to enable peer's messaging"
+  },
+  "enter_confirmation_code_prompt": {
+    "defaultMessage": "Confirmation code",
+    "description": "Request to enter confirmation code"
+  },
+  "error_invalid_id": {
+    "defaultMessage": "Invalid ID",
+    "description": "Error message"
+  },
+  "failed_to_init_audio": {
+    "defaultMessage": "Failed to initialize audio recording",
+    "description": "Error message when audio is not available"
+  },
+  "file_attachment_too_large": {
+    "defaultMessage": "The file size {size} exceeds the {limit} limit.",
+    "description": "Error message when attachment is too large"
+  },
+  "forgot_password_link": {
+    "defaultMessage": "Forgot password?",
+    "description": "Link to Reset password form"
+  },
+  "forward_to": {
+    "defaultMessage": "Forward to"
+  },
+  "forward_to_search_placeholder": {
+    "defaultMessage": "Search contacts",
+    "description": "Contact search prompt when forwarding a message."
+  },
+  "full_name_prompt": {
+    "defaultMessage": "Full name, e.g. John Doe",
+    "description": "Input placeholder for person's full name"
+  },
+  "granted_permissions": {
+    "defaultMessage": "Granted",
+    "description": "Title for permissions"
+  },
+  "group_has_no_members": {
+    "defaultMessage": "No members",
+    "description": "Shown in place of group members"
+  },
+  "group_user_id_prompt": {
+    "defaultMessage": "Group or User ID",
+    "description": "Prompt for entering user or group ID"
+  },
+  "icon_title_add_image": {
+    "defaultMessage": "Add image",
+    "description": "Icon tool tip for attaching an image"
+  },
+  "icon_title_attach_file": {
+    "defaultMessage": "Attach file",
+    "description": "Icon tool tip for attaching a file"
+  },
+  "icon_title_delete": {
+    "defaultMessage": "Delete recording",
+    "description": "Icon tool tip for deleting recorded audio"
+  },
+  "icon_title_pause": {
+    "defaultMessage": "Pause playback",
+    "description": "Icon tool tip for pausing audio playback"
+  },
+  "icon_title_play": {
+    "defaultMessage": "Play recording",
+    "description": "Icon tool tip for starting audio playback"
+  },
+  "icon_title_record_voice": {
+    "defaultMessage": "Record voice message",
+    "description": "Icon tool tip for recording a voice message"
+  },
+  "icon_title_resume": {
+    "defaultMessage": "Resume playback",
+    "description": "Icon tool tip for resuming audio playback"
+  },
+  "icon_title_send": {
+    "defaultMessage": "Send message",
+    "description": "Icon tool tip for sending a message"
+  },
+  "image_caption_prompt": {
+    "defaultMessage": "Image caption",
+    "description": "Prompt in SendMessage for attached image"
+  },
+  "invalid_content": {
+    "defaultMessage": "invalid content",
+    "description": "Shown when the message is unreadable"
+  },
+  "invalid_security_token": {
+    "defaultMessage": "Invalid security token",
+    "description": "Error message when resetting password."
+  },
+  "label_client": {
+    "defaultMessage": "Client:",
+    "description": "Label for a client version"
+  },
+  "label_content_type": {
+    "defaultMessage": "Content type:",
+    "description": "Label for file content type (mime)"
+  },
+  "label_default_access_mode": {
+    "defaultMessage": "Default access mode:",
+    "description": "Label for default access mode"
+  },
+  "label_description": {
+    "defaultMessage": "Description",
+    "description": "Label for editing topic description"
+  },
+  "label_file_name": {
+    "defaultMessage": "File name:",
+    "description": "Label for a file name"
+  },
+  "label_group_members": {
+    "defaultMessage": "Group members:",
+    "description": "Section title or label"
+  },
+  "label_incognito_mode": {
+    "defaultMessage": "Incognito mode:",
+    "description": "Label for incognito mode toggle"
+  },
+  "label_message_sound": {
+    "defaultMessage": "Message sound:",
+    "description": "Label for message sounds toggle"
+  },
+  "label_muting_topic": {
+    "defaultMessage": "Muted:",
+    "description": "Label for Muting/unmuting the topic"
+  },
+  "label_new_password": {
+    "defaultMessage": "New password",
+    "description": "Label for entering a new password"
+  },
+  "label_other_user": {
+    "defaultMessage": "Other",
+    "description": "Label for the other user when the user is unnamed"
+  },
+  "label_password": {
+    "defaultMessage": "Password",
+    "description": "Label for password editing"
+  },
+  "label_permissions": {
+    "defaultMessage": "Permissions:",
+    "description": "Section title"
+  },
+  "label_private": {
+    "defaultMessage": "Private comment",
+    "description": "Label for editing 'private'"
+  },
+  "label_push_notifications": {
+    "defaultMessage": "Notification alerts:",
+    "description": "Label for push notifications switch"
+  },
+  "label_push_notifications_disabled": {
+    "defaultMessage": "Notification alerts (requires HTTPS):",
+    "description": "Label for push notifications switch"
+  },
+  "label_reset_password": {
+    "defaultMessage": "Send a password reset email",
+    "description": "Label for password reset field"
+  },
+  "label_reset_password_tel": {
+    "defaultMessage": "Send SMS to reset password",
+    "description": "Label for password reset field by phone"
+  },
+  "label_sdk": {
+    "defaultMessage": "SDK:"
+  },
+  "label_server": {
+    "defaultMessage": "Server:",
+    "description": "Label for a server version"
+  },
+  "label_server_address": {
+    "defaultMessage": "Server address:"
+  },
+  "label_server_to_use": {
+    "defaultMessage": "Server to use:",
+    "description": "Label for server selector in SettingsView"
+  },
+  "label_size": {
+    "defaultMessage": "Size:",
+    "description": "Label for file size"
+  },
+  "label_topic_name": {
+    "defaultMessage": "Name",
+    "description": "Label for editing topic name"
+  },
+  "label_unarchive_topic": {
+    "defaultMessage": "Archived:",
+    "description": "Label for unarchiving the topic"
+  },
+  "label_use_secure_connection": {
+    "defaultMessage": "Use secure connection",
+    "description": "Label for WS/WSS connection type in SettingsView"
+  },
+  "label_user_contacts": {
+    "defaultMessage": "Contacts",
+    "description": "Label for user contacts"
+  },
+  "label_user_id": {
+    "defaultMessage": "ID:",
+    "description": "Label for user address (ID)"
+  },
+  "label_wire_transport": {
+    "defaultMessage": "Wire transport:",
+    "description": "Label for wire transport selection in SettingsView"
+  },
+  "label_you": {
+    "defaultMessage": "You:",
+    "description": "Label for the current user"
+  },
+  "label_your_name": {
+    "defaultMessage": "Your name",
+    "description": "Label for full name editing"
+  },
+  "label_your_permissions": {
+    "defaultMessage": "Your permissions:",
+    "description": "Label for current user permissions"
+  },
+  "last_seen_timestamp": {
+    "defaultMessage": "Last seen",
+    "description": "Label for the timestamp of when the user or topic was last online"
+  },
+  "leave_chat_warning": {
+    "defaultMessage": "Are you sure you want to leave this conversation?",
+    "description": "Alert dialog warning when unsubscribing from a chat."
+  },
+  "link_contact_us": {
+    "defaultMessage": "Contact Us",
+    "description": "Ancor text for contacting us by email"
+  },
+  "link_privacy_policy": {
+    "defaultMessage": "Privacy Policy",
+    "description": "Ancor text for privacy policy link"
+  },
+  "link_terms_of_service": {
+    "defaultMessage": "Terms of Service",
+    "description": "Ancor text for terms of service link"
+  },
+  "loading_note": {
+    "defaultMessage": "Loading...",
+    "description": "Message shown when component is loading"
+  },
+  "login_prompt": {
+    "defaultMessage": "Login",
+    "description": "Placeholer for username/login"
+  },
+  "menu_item_archive_topic": {
+    "defaultMessage": "Archive",
+    "description": "Move topic from the list of active chats to archive"
+  },
+  "menu_item_audio_call": {
+    "defaultMessage": "Call",
+    "description": "Start audio call"
+  },
+  "menu_item_block": {
+    "defaultMessage": "Block",
+    "description": "Block topic or user"
+  },
+  "menu_item_clear_messages": {
+    "defaultMessage": "Clear messages",
+    "description": "Delete all messages"
+  },
+  "menu_item_clear_messages_for_all": {
+    "defaultMessage": "Clear for All",
+    "description": "Delete all message(s) for all members"
+  },
+  "menu_item_delete": {
+    "defaultMessage": "Delete",
+    "description": "Delete selected messages"
+  },
+  "menu_item_delete_for_all": {
+    "defaultMessage": "Delete for All",
+    "description": "Delete selected message(s) for all members"
+  },
+  "menu_item_delete_topic": {
+    "defaultMessage": "Delete",
+    "description": "Delete entire topic"
+  },
+  "menu_item_edit": {
+    "defaultMessage": "Edit",
+    "description": "Edit message"
+  },
+  "menu_item_edit_permissions": {
+    "defaultMessage": "Edit permissions",
+    "description": "Menu item [Edit permissions]"
+  },
+  "menu_item_forward": {
+    "defaultMessage": "Forward",
+    "description": "Forward message"
+  },
+  "menu_item_info": {
+    "defaultMessage": "Info",
+    "description": "Show extended topic information"
+  },
+  "menu_item_member_delete": {
+    "defaultMessage": "Remove",
+    "description": "Remove user from topic"
+  },
+  "menu_item_mute": {
+    "defaultMessage": "Mute",
+    "description": "Turn off notifications"
+  },
+  "menu_item_reply": {
+    "defaultMessage": "Reply",
+    "description": "Reply to message"
+  },
+  "menu_item_restore_topic": {
+    "defaultMessage": "Restore",
+    "description": "Restore topic from archive"
+  },
+  "menu_item_send_retry": {
+    "defaultMessage": "Retry",
+    "description": "Retry sending message"
+  },
+  "menu_item_unblock": {
+    "defaultMessage": "Unblock",
+    "description": "Unblock topic or user"
+  },
+  "menu_item_unmute": {
+    "defaultMessage": "Unmute",
+    "description": "Turn notifications on"
+  },
+  "menu_item_video_call": {
+    "defaultMessage": "Video call",
+    "description": "Start video call"
+  },
+  "message_edited_marker": {
+    "defaultMessage": ", edited",
+    "description": "Marker indicating that the message was edited"
+  },
+  "message_sending": {
+    "defaultMessage": "sending...",
+    "description": "Message being sent, in place of time stamp"
+  },
+  "message_sending_failed": {
+    "defaultMessage": "failed",
+    "description": "Failed to send message, in place of time stamp"
+  },
+  "messages_not_readable": {
+    "defaultMessage": "no access to messages",
+    "description": "Message shown in topic without the read access"
+  },
+  "messaging_disabled_prompt": {
+    "defaultMessage": "Messaging disabled",
+    "description": "Prompt in SendMessage in read-only topic"
+  },
+  "mobile_number_required": {
+    "defaultMessage": "Mobile phone number required",
+    "description": "Error message"
+  },
+  "mobile_phone_number": {
+    "defaultMessage": "Mobile phone number",
+    "description": "Prompt for entering a mobile phone number"
+  },
+  "more_online_members": {
+    "defaultMessage": "+{overflow} more",
+    "description": "Shown in MessagesView title bar when the number of online subscribers exceeds MAX_ONLINE_IN_TOPIC"
+  },
+  "new_email": {
+    "defaultMessage": "New email",
+    "description": "Prompt for entering a new email"
+  },
+  "new_message_prompt": {
+    "defaultMessage": "New message",
+    "description": "Prompt in send message field"
+  },
+  "new_password_placeholder": {
+    "defaultMessage": "Enter new password",
+    "description": "Placeholder for entering new password"
+  },
+  "new_phone_number": {
+    "defaultMessage": "New phone number",
+    "description": "Prompt for entering a new telephone number"
+  },
+  "no_connection": {
+    "defaultMessage": "No connection",
+    "description": "Warning that the user is offline."
+  },
+  "no_contacts": {
+    "defaultMessage": "You have no contacts :-(",
+    "description": "Shown in ContactsView when the user has no contacts"
+  },
+  "numeric_confirmation_code_prompt": {
+    "defaultMessage": "Numbers only",
+    "description": "Prompt for numeric conformation code"
+  },
+  "online_now": {
+    "defaultMessage": "online now",
+    "description": "Indicator that the user or topic is currently online"
+  },
+  "panel_title_crop": {
+    "defaultMessage": "Drag to Adjust",
+    "description": "Title for AvatarCropView."
+  },
+  "panel_title_general": {
+    "defaultMessage": "General",
+    "description": "Title for TopicCommon."
+  },
+  "panel_title_info": {
+    "defaultMessage": "Info",
+    "description": "Title for InfoView"
+  },
+  "panel_title_members": {
+    "defaultMessage": "Members",
+    "description": "Title for managing group members view."
+  },
+  "panel_title_security": {
+    "defaultMessage": "Security",
+    "description": "Title for TopicSecirity and AccSecurity."
+  },
+  "password_i_have_code": {
+    "defaultMessage": "I have code",
+    "description": "Call to open field to enter password reset code"
+  },
+  "password_prompt": {
+    "defaultMessage": "Password",
+    "description": "Placeholder/prompt for entering password"
+  },
+  "password_reset_email_sent": {
+    "defaultMessage": "An email with security code has been sent.",
+    "description": "Notification that the email with password reset instructions has been sent"
+  },
+  "password_reset_sms_sent": {
+    "defaultMessage": "A text message with security code has been sent.",
+    "description": "Notification that the SMS with password reset instructions has been sent"
+  },
+  "password_reset_success": {
+    "defaultMessage": "Password reset successfully",
+    "description": "Notification message that the password was successfully reset."
+  },
+  "password_unchanged_prompt": {
+    "defaultMessage": "Unchanged",
+    "description": "Message in editor while password is unchanged"
+  },
+  "peers_messaging_disabled": {
+    "defaultMessage": "Peer's messaging is disabled.",
+    "description": "Shown when the p2p peer's messaging is disabled"
+  },
+  "permission_admin": {
+    "defaultMessage": "Approve ({val})",
+    "description": "Name of A permission"
+  },
+  "permission_delete": {
+    "defaultMessage": "Delete ({val})",
+    "description": "Name of D permission"
+  },
+  "permission_join": {
+    "defaultMessage": "Join ({val})",
+    "description": "Name of J permission"
+  },
+  "permission_owner": {
+    "defaultMessage": "Owner ({val})",
+    "description": "Name of O permission"
+  },
+  "permission_pres": {
+    "defaultMessage": "Get notified ({val})",
+    "description": "Name of P permission"
+  },
+  "permission_read": {
+    "defaultMessage": "Read ({val})",
+    "description": "Name of R permission"
+  },
+  "permission_share": {
+    "defaultMessage": "Share ({val})",
+    "description": "Name of S permission"
+  },
+  "permission_write": {
+    "defaultMessage": "Write ({val})",
+    "description": "Name of W permission"
+  },
+  "permissions_anonymous": {
+    "defaultMessage": "Anonymous",
+    "description": "Title for editing default anonymous permissions"
+  },
+  "permissions_authenticated": {
+    "defaultMessage": "Authenticated",
+    "description": "Title for editing default authenticated permissions"
+  },
+  "permissions_user": {
+    "defaultMessage": "User's Permissions",
+    "description": "Title for editing user's permissions"
+  },
+  "phone_dative": {
+    "defaultMessage": "phone",
+    "description": "Dative case of 'phone', i.e. 'phone' in 'by phone'"
+  },
+  "private_editing_placeholder": {
+    "defaultMessage": "Visible to you only",
+    "description": "Placeholder for editing 'private'"
+  },
+  "push_init_failed": {
+    "defaultMessage": "Failed to initialize push notifications",
+    "description": "Error message when push notifications have failed to initialize."
+  },
+  "reconnect_countdown": {
+    "defaultMessage": "Disconnected. Reconnecting in {seconds}…",
+    "description": "Message shown when an app update is available."
+  },
+  "reconnect_now": {
+    "defaultMessage": "Try now",
+    "description": "Prompt for reconnecting now"
+  },
+  "reload_update": {
+    "defaultMessage": "Reload",
+    "description": "Call to action to reload application when update is available."
+  },
+  "report_chat_warning": {
+    "defaultMessage": "Are you sure you want to block and report this conversation?",
+    "description": "Alert dialog warning when reporting a conversation for abuse"
+  },
+  "requested_permissions": {
+    "defaultMessage": "Requested",
+    "description": "Title for permissions"
+  },
+  "save_attachment": {
+    "defaultMessage": "save",
+    "description": "Call to save an attachment"
+  },
+  "search_for_contacts": {
+    "defaultMessage": "Use search to find contacts",
+    "description": "Text shown in contacts view when user entered no search query."
+  },
+  "search_no_results": {
+    "defaultMessage": "Search returned no results",
+    "description": "Text shown in contacts view when query returned no results."
+  },
+  "search_placeholder": {
+    "defaultMessage": "List like alice@example.com, +17025550003...",
+    "description": "Placeholder in contacts search field"
+  },
+  "sidepanel_title_acc_notifications": {
+    "defaultMessage": "Notifications",
+    "description": "Sidepanel title for AccNotificationsView."
+  },
+  "sidepanel_title_acc_support": {
+    "defaultMessage": "Support",
+    "description": "Sidepanel title for AccSupportView."
+  },
+  "sidepanel_title_account_settings": {
+    "defaultMessage": "Account Settings",
+    "description": "Sidepanel title for AccountSettingsView."
+  },
+  "sidepanel_title_archive": {
+    "defaultMessage": "Archived Chats",
+    "description": "Sidepanel title for ContactsView-Archive."
+  },
+  "sidepanel_title_blocked": {
+    "defaultMessage": "Blocked Chats",
+    "description": "Sidepanel title for ContactsView-Blocked."
+  },
+  "sidepanel_title_cred": {
+    "defaultMessage": "Confirm Credentials",
+    "description": "Sidepanel title for ValidationView."
+  },
+  "sidepanel_title_login": {
+    "defaultMessage": "Sign In",
+    "description": "Sidepanel title for LoginView."
+  },
+  "sidepanel_title_newtpk": {
+    "defaultMessage": "Start New Chat",
+    "description": "Sidepanel title for NewTopicView."
+  },
+  "sidepanel_title_register": {
+    "defaultMessage": "Create Account",
+    "description": "Sidepanel title for CreateAccountView."
+  },
+  "sidepanel_title_reset": {
+    "defaultMessage": "Reset Password",
+    "description": "Sidepanel title for PasswordResetView."
+  },
+  "sidepanel_title_settings": {
+    "defaultMessage": "Settings",
+    "description": "Sidepanel title for SettingsView."
+  },
+  "stay_logged_in": {
+    "defaultMessage": "Stay logged in",
+    "description": "Label for a checkbox"
+  },
+  "tabtitle_find_user": {
+    "defaultMessage": "find",
+    "description": "Tab title Find"
+  },
+  "tabtitle_group_by_id": {
+    "defaultMessage": "by id",
+    "description": "Tab title Find topic by ID"
+  },
+  "tabtitle_new_group": {
+    "defaultMessage": "new group",
+    "description": "Tab title New Group"
+  },
+  "tags_editor_no_tags": {
+    "defaultMessage": "Add some tags",
+    "description": "Tag editor prompt when no tags are found."
+  },
+  "tags_not_found": {
+    "defaultMessage": "No tags defined. Add some.",
+    "description": ""
+  },
+  "title_all_contacts": {
+    "defaultMessage": "All Contacts",
+    "description": "Section title [All Contacts]"
+  },
+  "title_group_members": {
+    "defaultMessage": "Group Members",
+    "description": "Section title"
+  },
+  "title_manage_tags": {
+    "defaultMessage": "Manage",
+    "description": "Section title for the list of tags"
+  },
+  "title_not_found": {
+    "defaultMessage": "Not found",
+    "description": "Title shown when topic is not found"
+  },
+  "title_permissions": {
+    "defaultMessage": "Permissions",
+    "description": "Section title"
+  },
+  "title_tag_manager": {
+    "defaultMessage": "Tags (search & discovery)",
+    "description": "Section title for TagManager"
+  },
+  "topic_block_warning": {
+    "defaultMessage": "Are you sure you want to block this conversation?",
+    "description": "Alert warning when blocking a topic."
+  },
+  "topic_delete": {
+    "defaultMessage": "Delete Conversation",
+    "description": "Alert title when deleting the topic."
+  },
+  "topic_delete_warning": {
+    "defaultMessage": "Are you sure you want to delete this conversation? It cannot be undone.",
+    "description": "Alert warning when deleting entire topic"
+  },
+  "topic_name_editing_placeholder": {
+    "defaultMessage": "Freeform name of the group",
+    "description": "Prompt for entering topic name"
+  },
+  "unnamed_topic": {
+    "defaultMessage": "Unnamed",
+    "description": "Title shown when the topic has no name"
+  },
+  "unrecognized_video_format": {
+    "defaultMessage": "Format of this video is not recognized",
+    "description": "Error message when uploaded video is invalid"
+  },
+  "update_available": {
+    "defaultMessage": "Update available.",
+    "description": "Message shown when an app update is available."
+  },
+  "upload_finishing": {
+    "defaultMessage": "finishing...",
+    "description": "Notification that upload is finishing"
+  },
+  "user_not_found": {
+    "defaultMessage": "Not found",
+    "description": "In place of a user's full name when the user is not found."
+  }
+}
