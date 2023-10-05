@@ -8,7 +8,9 @@ Once you obtain the ICE TURN/STUN configuration from your service provider, add 
 
 You may find this information useful for choosing the servers: https://gist.github.com/yetithefoot/7592580
 
-### How to Setup STUN/TURN Server
+### How to Setup STUN/TURN Server on your WSL machine
+
+**Important!** In this repository, `/server/tinode.conf` is populated with a dummy `turnserver` config (do ctrl + f and look for webrtc). At step 5, fill the `USERNAME` and `PASSWORD` as `uneex` and `123` if you want the config to be the same as the dummy one currently at `/server/tinode.conf`. Choose a different one if you want to have your own username/password, remember to change the ip address of the turn server to be your wsl ip address. 
 
 1. install coturn
 ```
@@ -16,7 +18,7 @@ sudo apt-get update
 sudo apt-get install coturn
 ```
 
-2. To let it auto-start at system boot time, modify /etc/default/coturn file.
+2. To let it auto-start at system boot time, modify `/etc/default/coturn` file.
 ```
 sudo nano /etc/default/coturn
 ```
@@ -55,3 +57,7 @@ TURN password: <PASSWORD>
 ```
 
 8. Then press the “Gather candidates” button, if everything is correctly configured, you should see "Done".
+
+9. Go to `/server/tinode.conf` and look for `webrtc` change the `ice_servers` config to be the one you have configured.
+
+10. If everything is configured correctly, you should have video/voice call enabled
