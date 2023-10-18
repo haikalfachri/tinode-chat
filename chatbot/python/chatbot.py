@@ -131,6 +131,13 @@ def next_quote():
     return quotes[idx]
 next_quote.idx = 0
 
+def command_reply(inputMsg):
+    # b'"okoko"'
+    
+    if str(inputMsg) == 'b\'\"command\"\'':
+        return "this is command reply"
+    return "this is normal reply"
+
 # This is the class for the server-side gRPC endpoints
 class Plugin(pbx.PluginServicer):
     def Account(self, acc_event, context):
@@ -256,7 +263,8 @@ def client_message_loop(stream):
                 exec_future(msg.ctrl.id, msg.ctrl.code, msg.ctrl.text, msg.ctrl.params)
 
             elif msg.HasField("data"):
-                # log("message from:", msg.data.from_user_id)
+                inputMsg = msg.data.content
+                # log("message from:", str(string) + "hello world")
 
                 # Protection against the bot talking to self from another session.
                 if msg.data.from_user_id != botUID:
@@ -266,7 +274,8 @@ def client_message_loop(stream):
                     # Insert a small delay to prevent accidental DoS self-attack.
                     time.sleep(0.1)
                     # Respond with a witty quote
-                    client_post(publish(msg.data.topic, next_quote()))
+                    # client_post(publish(msg.data.topic, next_quote()))
+                    client_post(publish(msg.data.topic, command_reply(inputMsg)))
 
             elif msg.HasField("pres"):
                 # log("presence:", msg.pres.topic, msg.pres.what)
